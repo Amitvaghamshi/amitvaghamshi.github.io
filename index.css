@@ -1,6 +1,5 @@
 .navbar-expand-lg bg-body-tertiary{
     background-color: none;
-   
 }
 
 #amithead{
@@ -37,13 +36,22 @@
     font-size: 16px;
     margin-left: 2px;
 }
+.navbar-light{
+    background-color: #d5d5d3;
+    height: 70px;
+}
+.navbar-light:hover{
+    background: #c8c8bb;
+    transition: 0.5s;
+}
 
 
 /* Parralax section */
-
+/* https://madewithnetworkfra.fra1.digitaloceanspaces.com/spatie-space-production/1165/vue-parallax.jpeg */
+/* https://media.istockphoto.com/id/1189265421/photo/cluttered-workspace-of-graphic-design-on-wooden-table-in-studio.jpg?s=170667a&w=0&k=20&c=2n0p8NFV0UksnyXeqTxVnZlSrDcUbA9YtBEd6tPPyIY= */
 .parallax {
     /* The image used */
-    background-image: url("https://madewithnetworkfra.fra1.digitaloceanspaces.com/spatie-space-production/1165/vue-parallax.jpeg");
+    background-image: url("https://media.istockphoto.com/id/1189265421/photo/cluttered-workspace-of-graphic-design-on-wooden-table-in-studio.jpg?s=170667a&w=0&k=20&c=2n0p8NFV0UksnyXeqTxVnZlSrDcUbA9YtBEd6tPPyIY=");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -324,19 +332,27 @@
     height: 40px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: teal;
     border: none;
     font-size: 20px;
     color: antiquewhite;
+    background-image: linear-gradient(to right, rgb(45, 146, 87) , rgb(83, 95, 121));
+}
+#subm:hover{
+    background-image: green;
 }
 
 
 /* git hub portion */
 .calendar{
-      width:50%;
-       display: flex;
-       justify-content: center;
+       width:55%;
+       margin: auto;
+       overflow: hidden; 
+       height: 165px;
        overflow: hidden;
+}
+#xyz{
+    height: 165px;
+    overflow: hidden;
 }
 .react-activity-calendar{
     padding-top: 80px;
@@ -359,7 +375,23 @@
 
 
 
+
+
+
+
+
+
 @media all and (min-width:320px) and (max-width:480px){
+
+    /* for navbar */
+    .navbar-light{
+        background-color: #d5d5d3;
+        height: 90px;
+    }
+    #navbarNav{
+        background-color: #d5d5d3;
+       
+    }
 
     /* for java text in parralax */
 
@@ -464,6 +496,12 @@
 
 /* For medium screen */
 @media all and (min-width:480px) and (max-width:800px){
+
+     /* for navbar */
+     #navbarNav{
+        background-color: #d5d5d3;
+    }
+
      /* for java text in parralax */
 
      #no1{

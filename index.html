@@ -13,7 +13,7 @@
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 
        <!-- for favicon -->
-   <link rel="icon" href="./favicon/favicon.jpg" type="image/x-icon">
+   <link rel="icon" href="./favicon/favicon.png" type="image/x-icon">
    
 
     
@@ -22,13 +22,25 @@ src="https://kit.fontawesome.com/24c494a6b6.js"
 crossorigin="anonymous">
 </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Foe email -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("B_vSbVa9f6v82SIzW");
+   })();
+</script>
+
+
 </head>
 <body>
    
 
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navf">
-        <div class="container-fluid">
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light " id="navf">
+        <div class="container-fluid  navbar-light ">
           <a class="navbar-brand" href="#"  id="amithead">Amit's Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,7 +70,6 @@ crossorigin="anonymous">
           </div>
         </div>
       </nav>
-
 
       <!-- About section  -->
 
@@ -260,9 +271,11 @@ crossorigin="anonymous">
 
         <h1>My Github Calender</h1>
 
+        <div id="xyz">
         <div class="calendar" >
           <!-- Loading stuff -->
        </div>
+      </div>
 
        <div class="github-streak-stats">
          <img src="https://github-readme-streak-stats.herokuapp.com?user=Amitvaghamshi" alt="">
@@ -298,11 +311,11 @@ crossorigin="anonymous">
           <div>
               <h3>Message Me</h3>
               <div id="inputs">
-                 <input type="text" placeholder="Name">
-                 <input type="text" placeholder="Email"> 
-                 <input type="text" placeholder="Message..">
+                 <input type="text" placeholder="Name" id="name">
+                 <input type="text" placeholder="Email" id="email"> 
+                 <input type="text" placeholder="Message.." id="message">
               </div>
-              <button id="subm" >Submit</button>
+              <button id="subm" onclick="sendmail()">Submit</button>
           </div>
 
         </div> 
@@ -326,7 +339,7 @@ crossorigin="anonymous">
 </script>
 
 <script>
- // GitHubCalendar(".calendar", "Amitvaghamshi");
+ GitHubCalendar(".calendar", "Amitvaghamshi");
 
   // or enable responsive functionality:
   GitHubCalendar(".calendar", "Amitvaghamshi", { responsive: true });
