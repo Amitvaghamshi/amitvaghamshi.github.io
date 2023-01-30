@@ -40,3 +40,12 @@ document.getElementById("subm").addEventListener("click",()=>{
     document.getElementById("subm").style.backgroundImage="linear-gradient(to right, rgb(231, 146, 87) , rgb(83, 195, 121))";
     document.getElementById("subm").innerText="Success";
 })
+
+
+// resume open tab
+
+document.getElementById("opentab").addEventListener("click",()=>{
+
+    window.open("https://drive.google.com/file/d/180tKLVCyZoBfH38uJiqa5jXQ1sEL05UR/view?usp=share_link");
+
+})
