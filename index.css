@@ -188,13 +188,14 @@
 /* Project section */
 #projects{
     width: 100%;
-    background-color: rgb(182, 186, 185);
+    background-color: #d5d5d3;
     padding-top: 80px;
    
 }
 #projects>div:first-child{
     text-align: center;
    text-decoration: underline;
+   
 }
 
 #cards{
@@ -280,6 +281,12 @@
 #carouselExampleDark{
     z-index: 1;
 }
+.project-card:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+    background-color: #d5d5d3;
+}
+
 
 
 /* get in touch icon */
