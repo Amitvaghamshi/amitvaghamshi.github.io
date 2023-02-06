@@ -356,10 +356,14 @@
        overflow: hidden; 
        height: 165px;
        overflow: hidden;
+      
 }
 #xyz{
-    height: 165px;
+     height: 215px;  /* old 165px */
     overflow: hidden;
+    
+    
+    
 }
 .react-activity-calendar{
     padding-top: 80px;
