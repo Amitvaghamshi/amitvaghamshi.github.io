@@ -173,7 +173,9 @@
     gap: 70px;  
     width: 85%;  
     margin: auto;
+    margin-bottom: 50px;
 }
+
 .skills-card img{
  width:80%;
 }
@@ -360,7 +362,7 @@
 
 /* git hub portion */
 .calendar{
-       width:55%;
+       width:60%;
        margin: auto;
        overflow: hidden; 
        height: 165px;
