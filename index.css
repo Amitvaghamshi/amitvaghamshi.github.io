@@ -147,7 +147,16 @@
     margin-bottom: 50px;
     text-align: center;
 }
-
+#opentab2{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: antiquewhite;
+    background-image: linear-gradient(to right, rgb(45, 146, 87) , rgb(83, 95, 121));
+}
 
 
 /* Skills section */
@@ -359,11 +368,8 @@
       
 }
 #xyz{
-     height: 215px;  /* old 165px */
+     height: 165px; 
     overflow: hidden;
-    
-    
-    
 }
 .react-activity-calendar{
     padding-top: 80px;
@@ -495,7 +501,12 @@
 .calendar{
     width:95%;
 }
+#xyz{
+    height: 215px; 
+   overflow: hidden;
+}
 .github-streak-stats{
+    display: none;
    width: 100%;
   overflow: hidden;
 }
