@@ -502,7 +502,7 @@
     width:95%;
 }
 #xyz{
-    height: 215px; 
+    height: 245px; 
    overflow: hidden;
 }
 .github-streak-stats{
@@ -605,9 +605,17 @@
     margin-bottom: 40px;
   }
 
-
-  /* for git hub  */
-  .calendar{
-    width:85%;
+/* for git hub  */
+.calendar{
+    width:95%;
+}
+#xyz{
+    height: 245px; 
+   overflow: hidden;
+}
+.github-streak-stats{
+    display: none;
+   width: 100%;
+  overflow: hidden;
 }
 }
