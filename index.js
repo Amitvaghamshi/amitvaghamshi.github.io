@@ -46,13 +46,13 @@ document.getElementById("subm").addEventListener("click",()=>{
 
 document.getElementById("opentab").addEventListener("click",()=>{
 
-    window.open("https://drive.google.com/file/d/180tKLVCyZoBfH38uJiqa5jXQ1sEL05UR/view?usp=share_link");
+    window.open("resume/Amit_Vaghamshi_Resume.pdf");
 
 })
 
 document.getElementById("opentab2").addEventListener("click",()=>{
 
-    window.open("https://drive.google.com/file/d/180tKLVCyZoBfH38uJiqa5jXQ1sEL05UR/view?usp=share_link");
+    window.open("resume/Amit_Vaghamshi_Resume.pdf");
 
 })
 
