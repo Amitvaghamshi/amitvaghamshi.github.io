@@ -36,6 +36,12 @@
 .mycolor{
     color: white;
 }
+#opentab{
+    color: white;
+}
+#opentab2{
+    color: white;
+}
 
 .nav-item:hover{
     border-bottom: 3px solid rgb(25, 25, 42);
