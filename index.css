@@ -26,8 +26,19 @@
     padding-bottom: 3px;
 }
 
+/* white class */
+
+#whitecl{
+    color: white;
+    z-index: 100000;
+}
+
+.mycolor{
+    color: white;
+}
+
 .nav-item:hover{
-    border-bottom: 3px solid rgb(150, 150, 178);
+    border-bottom: 3px solid rgb(25, 25, 42);
     /* padding-bottom: -3px; */
     margin-bottom: -3px;
     transition: cubic-bezier(0.23, 1, 0.320, 1);
@@ -37,11 +48,11 @@
     margin-left: 2px;
 }
 .navbar-light{
-    background-color: #d5d5d3;
+    background-color: #011225;
     height: 70px;
 }
 .navbar-light:hover{
-    background: #c8c8bb;
+    background: #1e142d;
     transition: 0.5s;
 }
 
@@ -51,7 +62,7 @@
 /* https://media.istockphoto.com/id/1189265421/photo/cluttered-workspace-of-graphic-design-on-wooden-table-in-studio.jpg?s=170667a&w=0&k=20&c=2n0p8NFV0UksnyXeqTxVnZlSrDcUbA9YtBEd6tPPyIY= */
 .parallax {
     /* The image used */
-    background-image: url("https://media.istockphoto.com/id/1189265421/photo/cluttered-workspace-of-graphic-design-on-wooden-table-in-studio.jpg?s=170667a&w=0&k=20&c=2n0p8NFV0UksnyXeqTxVnZlSrDcUbA9YtBEd6tPPyIY=");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/430/145/original/technology-background-concept-circuit-board-electronic-system-futuristic-hi-tech-light-on-dark-blue-free-vector.jpg");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -93,7 +104,8 @@
 /* mydata section */
 #mydata{
     padding-top: 50px;
-    background-color: rgb(204, 222, 222);
+    /* background-color: rgb(204, 222, 222); */
+    background-color: #03142a;
 }
 
 #split{
@@ -199,7 +211,7 @@
 /* Project section */
 #projects{
     width: 100%;
-    background-color: #d5d5d3;
+    background-color: #03142a;
     padding-top: 80px;
    
 }
@@ -222,7 +234,7 @@
 
 .project-card{
     width: 100%;
-    background-color: rgb(222, 216, 216);
+    background-color: #021835;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
 }
@@ -242,6 +254,7 @@
     font-size: 25px;
     font-weight: 700;
     margin-top: 30px;
+    color: white;
 }
 .project-description{
     text-align: center;
@@ -250,6 +263,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 90%;
     margin: auto;
+    color: white;
 }
 
 .project-tech-stack{
@@ -258,6 +272,7 @@
     font-weight: 500;
     margin-top: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: wheat;
 }
 
 .deploybtn{
@@ -272,18 +287,18 @@
     height: 35px;
     border-radius: 5px;
     text-decoration: none;
-    background-color: rgb(29, 32, 32);
+    background-color: #4936a2;
     font-weight: 300;
     font-size: 20x;
     color: rgb(242, 222, 222);
     margin-bottom: 20px;
 }
 .project-deployed-link:hover{
-    background-color: rgb(56, 59, 59);
+    background-color: rgb(15, 33, 33);
     transition: 0.3s;
 }
 .project-github-link:hover{
-    background-color: rgb(56, 59, 59);
+    background-color: rgb(15, 33, 33);
     transition: 0.3s;
 }
 #carouselExampleDark2{
@@ -295,7 +310,7 @@
 .project-card:hover{
     transform: scale(1.03);
     transition: 0.4s;
-    background-color: #d5d5d3;
+    background-color: #03142a;
 }
 
 
@@ -305,7 +320,7 @@
 #contact{
     padding-top: 70px;
     padding-bottom: 100px;
-    background-color: #ccdede;
+    background-color: #011225;
 }
 #cmme{
     text-align: center;
@@ -338,7 +353,7 @@
     height: 35px;
     outline: none;
     border-radius: 5px;
-    border: 2px solid teal;
+    border: 2px solid rgb(39, 13, 61);
     background-color: #ccdede;
 }
 #inputs>input:nth-child(3){
