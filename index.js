@@ -56,3 +56,10 @@ document.getElementById("opentab2").addEventListener("click",()=>{
 
 })
 
+// typing text animation script
+// var typed = new Typed(".typing", {
+//     strings: ["Back-End Developer", "Problem Solver"],
+//     typeSpeed: 150,
+//     backSpeed: 60,
+//     loop: true,
+//   });

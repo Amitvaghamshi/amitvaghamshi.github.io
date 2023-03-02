@@ -63,9 +63,7 @@
 }
 
 
-/* Parralax section */
-/* https://madewithnetworkfra.fra1.digitaloceanspaces.com/spatie-space-production/1165/vue-parallax.jpeg */
-/* https://media.istockphoto.com/id/1189265421/photo/cluttered-workspace-of-graphic-design-on-wooden-table-in-studio.jpg?s=170667a&w=0&k=20&c=2n0p8NFV0UksnyXeqTxVnZlSrDcUbA9YtBEd6tPPyIY= */
+
 .parallax {
     /* The image used */
     background-image: url("https://static.vecteezy.com/system/resources/previews/006/430/145/original/technology-background-concept-circuit-board-electronic-system-futuristic-hi-tech-light-on-dark-blue-free-vector.jpg");
@@ -135,9 +133,11 @@
     height: 400px;
     overflow: hidden;
     border-radius: 100%;
+    border: 5px solid #03244a;
 }
 #imgs{
     width: 100%;
+   
 }
 
 #split >div:first-child{
@@ -183,6 +183,7 @@
     padding-top: 50px;
     padding-bottom: 80px;
     background-color: rgb(255, 255, 255);
+    color: 03244a;
 }
 #skills-cards{
     display: grid;
@@ -192,10 +193,14 @@
     width: 85%;  
     margin: auto;
     margin-bottom: 50px;
+    
 }
 
 .skills-card img{
  width:80%;
+ /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ height: 130px;
+ border-radius: 20px; */
 }
 .skills-card img:hover{
     padding-bottom:10px ;
@@ -210,6 +215,7 @@
     text-align: center;
     height: 40px;
     margin-bottom: 50px;
+    color: 03244a;
 }
 
 
@@ -400,6 +406,7 @@
 .react-activity-calendar h1{
     text-align: center;
     margin-bottom: 40px;
+    color: #011225;
 }
 
 .github-streak-stats{
@@ -425,13 +432,16 @@
 
     /* for navbar */
     .navbar-light{
-        background-color: #d5d5d3;
+        background-color: #011225;
         height: 90px;
     }
     #navbarNav{
-        background-color: #d5d5d3;
+        background-color: #042346;
        
     }
+    /* #amithead{
+        display: none;
+    } */
 
     /* for java text in parralax */
 
@@ -523,16 +533,18 @@
 /* for git hub  */
 .calendar{
     width:95%;
+    zoom: calc(0.45);
 }
 #xyz{
     height: 245px; 
-   overflow: hidden;
+    overflow: hidden;
 }
 .github-streak-stats{
     display: none;
    width: 100%;
   overflow: hidden;
 }
+
 
 }
 
@@ -544,7 +556,7 @@
 
      /* for navbar */
      #navbarNav{
-        background-color: #d5d5d3;
+        background-color: #011225;
     }
 
      /* for java text in parralax */
