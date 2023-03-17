@@ -63,3 +63,20 @@ document.getElementById("opentab2").addEventListener("click",()=>{
 //     backSpeed: 60,
 //     loop: true,
 //   });
+
+
+// for Dinamic Scroll bar
+
+document.getElementById("innerscroll").style.width= "0px";
+let th  =  document.getElementById("allbody").offsetHeight-window.innerHeight;
+window.addEventListener("scroll",()=>{
+
+  
+       const sizex=window.scrollY;
+       let wid=(sizex/th)*100;
+
+       document.getElementById("innerscroll").style.width= `${wid}%`;
+
+      // console.log(wid);
+     
+})
