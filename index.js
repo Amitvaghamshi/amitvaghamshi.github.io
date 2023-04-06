@@ -6,13 +6,13 @@ document.getElementById("subm").addEventListener("click",()=>{
 //for sending email
 function sendmail(){
     var params={
-        name:document.getElementById("name").value,
-        email:document.getElementById("email").value,
+        to_name:document.getElementById("name").value,
+        from_name:document.getElementById("email").value,
         message:document.getElementById("message").value,
     }
 
-    const serviceID="service_yrkuaag";
-    const tampID="template_k5nxr86";
+    const serviceID="service_lepsi82";
+    const tampID="template_yh1ejej";
 
     emailjs.send(serviceID,tampID,params).then(
         res =>{
