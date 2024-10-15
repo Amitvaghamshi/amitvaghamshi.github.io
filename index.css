@@ -2,7 +2,7 @@
     background-color: none;
 }
 
-#amithead{
+#amithead{  
     color: rgb(89, 191, 89);
     font-size: 25px;
     
@@ -424,7 +424,7 @@
       
 }
 #xyz{
-     height: 165px; 
+     height: 150px; 
     overflow: hidden;
 }
 .react-activity-calendar{

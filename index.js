@@ -78,5 +78,5 @@ window.addEventListener("scroll",()=>{
        document.getElementById("innerscroll").style.width= `${wid}%`;
 
       // console.log(wid);
-     
+        
 })
